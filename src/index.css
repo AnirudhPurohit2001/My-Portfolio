@@ -9,6 +9,21 @@ html,body{
 }
 
 @layer  utilities {
+
+   @keyframes blink {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+  }
+
+  .animate-blink{
+    animation: blink 0.8s step-end infinite ;
+  }
+
+
   @keyframes loading {
     0% {
         transform: translateX(-100%);
