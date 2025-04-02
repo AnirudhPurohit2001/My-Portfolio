@@ -67,11 +67,11 @@ export const About = () => {
                             <h3 className="text-xl font-bold mb-4"> Work Experience</h3>
                             <div className="space-y-4 text-gray-300">
                                 <div>
-                                    <h4 className="font-semibold text-blue-500">Associate Software Engineer at Wipro Ltd. </h4>
+                                    <strong className="text-blue-500 text-lg">Associate Software Engineer at Wipro Ltd. </strong>
                                     <p> Developed and maintained code for a US based Health-Care Company</p>
                                 </div>
                                 <div>
-                                    <h4 className="font-semibold text-blue-500">Intern at India Today Ltd. </h4>
+                                    <strong className="text-lg text-blue-500">Intern at India Today Ltd. </strong>
                                     <p> Assisted in building frontend components and integrating REST APIs</p>
                                 </div>
                             </div>
